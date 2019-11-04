@@ -1,5 +1,7 @@
 # ring-mdc
 
+[![Clojars Project](https://img.shields.io/clojars/v/tessellator/ring-mdc.svg)](https://clojars.org/tessellator/ring-mdc)
+
 Ring middlewares that interact with the Mapped Diagnostic Context (MDC).
 
 NOTE: Because the internals depend on thread-local bindings, these middlewares
