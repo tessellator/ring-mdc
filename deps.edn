@@ -1,0 +1,10 @@
+{:paths ["src"]
+
+ :deps {org.slf4j/slf4j-api {:mvn/version "1.6.2"}}
+
+ :aliases
+ {:test
+  {:extra-deps {ch.qos.logback/logback-classic {:mvn/version "1.2.3"}
+                lambdaisland/kaocha            {:mvn/version "0.0-554"}
+                org.clojure/clojure            {:mvn/version "1.9.0"}
+                ring/ring-mock                 {:mvn/version "0.4.0"}}}}}
