@@ -4,11 +4,11 @@
 
 (defn- put-all! [m]
   (doseq [[k v] m]
-    (MDC/put k v)))
+    (MDC/put (name k) (str v))))
 
 (defn- remove-all! [ks]
   (doseq [k ks]
-    (MDC/remove k)))
+    (MDC/remove (name k))))
 
 (defn- clear! []
   (MDC/clear))
