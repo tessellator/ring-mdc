@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>tessellator</groupId>
   <artifactId>ring-mdc</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <name>ring-mdc</name>
   <description>Ring middlewares for interacting with SLF4J's Mapped Diagnostic Context</description>
   <licenses>
@@ -15,7 +15,7 @@
   <scm>
     <connection>scm:git:git://github.com/tessellator/ring-mdc.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/tessellator/ring-mdc.git</developerConnection>
-    <tag>97857980e18df435d95b04cfe416da3a5348807a</tag>
+    <tag>4c60d8f518e3656b02b9f23ac32572da14d79fa9</tag>
     <url>https://github.com/tessellator/ring-mdc</url>
   </scm>
   <dependencies>
